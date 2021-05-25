@@ -1,0 +1,133 @@
+body {
+    background-color: #fff;
+    color: #708090;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.headerindex {
+    background-color: #669999;
+    margin-bottom: 2rem;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.headerbooks {
+    background-color: #996666;
+    margin-bottom: 2rem;
+    padding: 2rem 5rem;
+    text-align: center;
+}
+
+.headermovies {
+    background-color: #996699;
+    margin-bottom: 2rem;
+    padding: 2rem 5rem;
+    text-align: center;
+}
+
+.headerpodcasts {
+    background-color: #669966;
+    margin-bottom: 2rem;
+    padding: 2rem 5rem;
+    text-align: center;
+}
+
+ul {
+  font-family: 'Lucida Console', serif;
+  background-color: #ffffff;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1 {
+    font-family: 'Lucida Console', serif;
+    font-size: 36px;
+    color: #ffffff;
+    /* Controls "Welcome to my online athenaeum!" on index.html */
+    /* Controls "---" on index.html */
+    /* Controls "My Favorite Books" on books.html */
+}
+
+h2 {
+    font-family: 'Lucida Console', serif;
+    font-size: 20px;
+    color: #998066;
+    /* Controls all the book titles and author names on books.html */
+}
+
+h3 {
+    font-family: 'Lucida Console', serif;
+    font-size: 24px;
+    color: #ffffff;
+    /* Controls "A selection of my favorite books, podcasts, and movies - in no particular order :)" on index.html */
+}
+
+h4 {
+    font-family: 'Lucida Console', serif;
+    font-size: 16px;
+    color: #ffffff;
+    /* Controls all of the footer text on index.html and books.html */
+}
+
+h5 {
+    font-family: 'Lucida Console', serif;
+    font-size: 20px;
+    color: #000000;
+    /* Controls all the book descriptions on books.html */
+}
+
+h6 {
+    font-family: 'Lucida Console', serif;
+    font-size: 25px;
+    color: #000000;
+    /* Controls "Books" and "Podcasts" and "Movies" on index.html */
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 1rem;
+}
+
+button {
+    background: white;
+    color: black;
+}
+
+.cardtitle {
+    text-align: center;
+    background: #ffffff;
+    font-family: 'Lucida Console', serif;
+    color: #4a4a4a;
+}
+
+.footer {
+    background-color: #998066;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 2rem 3rem;
+    text-align: center;
+}
